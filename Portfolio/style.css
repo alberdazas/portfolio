@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 100px 1fr 200px;
+    grid-template-areas:
+        "header header header header"
+        "sidebar main main main"
+        "footer footer footer footer";
+    height: 100%;
+}
+
+.header {
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+.sidebar {
+    background-color: plum;
+    grid-area: sidebar;
+    height: 100%;
+}
+
+.main {
+    background-color: royalblue;
+    grid-area: main;
+    height: 100%;
+}
+
+.footer {
+    background-color: limegreen;
+    grid-area: footer;
+}
