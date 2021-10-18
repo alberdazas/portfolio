@@ -1,8 +1,8 @@
-# Readme
+# Visi darbai
 # Portfolio
 Bus sukurtas portfolio tinklapis
 
-#AmazoneRedisgn
+# Amazone Redesign
 Užbaigti amazone tinklapio dizaina
 
 #
