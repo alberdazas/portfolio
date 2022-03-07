@@ -1,23 +1,111 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <link href="css/reset.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
+<html lang="en">
 
-        <header class="navbar-top">
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">experience</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alberto Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs/cloudflare.com/ajax/libs/font-awesome/5.11.2/cdd/all.css"
+        integrity="sha256-46qynGakLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
+        <!-- my fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
 
-    </body>
+<body>
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Albertas Lukoševičius</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle-intro">full stack dev</p>
+        <img src="./img/10357644_10201524286863752_187770620464520299_o.jpg" alt="how i look like">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__tittle section__title--services">What I do</h2>
+        <div class="services">
+            <h3>My service 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem voluptatibus fugiat sit nam atque
+                sapiente rem, reprehenderit soluta debitis, voluptatum a culpa possimus fuga nihil corporis officia
+                quaerat aliquid maxime!
+            </p>
+        </div>
+        <div class="services">
+            <h3>My service 2</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem voluptatibus fugiat sit nam atque
+                sapiente rem, reprehenderit soluta debitis, voluptatum a culpa possimus fuga nihil corporis officia
+                quaerat aliquid maxime!
+            </p>
+        </div>
+        <div class="services">
+            <h3>My service 3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem voluptatibus fugiat sit nam atque
+                sapiente rem, reprehenderit soluta debitis, voluptatum a culpa possimus fuga nihil corporis officia
+                quaerat aliquid maxime!
+            </p>
+        </div>
+
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Atque consequatur eaque sint? Labore unde nemo soluta laudantium minima! Eaque officiis, recusandae
+            omnis praesentium inventore perspiciatis architecto ducimus exercitationem? Illo, consequuntur.</p>
+        <div class="about-me__body">
+            <p></p>
+            <p></p>
+        </div>
+        <!-- nuotraukai vieta -->
+        <img src="./img/albert_2.jpg" alt="Waiting for better life">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My work</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="protfolio">
+            <a href="#" class="portfolio__item">
+                <img src="./img/amazone_logo.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- email -->
+        <a href="mailto:albertas.lukosevicius@gmail.com" class="footer__link">albertas.lukosevicius@gmail.com</a>
+        <ul class="sociol_list">
+            <li class="sociol-list__item"><a class="sociol-list__link" href="linkedin">a</a></li>
+            <li class="sociol-list__item"><a class="sociol-list__link" href="linkedin">b</a></li>
+            <li class="sociol-list__item"><a class="sociol-list__link" href="linkedin">c</a></li>
+        </ul>
+    </footer>
+</body>
+
 </html>
